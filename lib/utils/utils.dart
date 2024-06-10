@@ -11,20 +11,18 @@ class StaticUtils {
 
   // photos
   static const String mobilePhoto = 'assets/photos/mobile.png';
-  static const String coloredPhoto = 'assets/photos/colored.png';
-  static const String blackWhitePhoto = 'assets/photos/black-white.png';
+  static const String coloredPhoto = 'assets/photos/colored-farhan.png';
+  static const String blackWhitePhoto = 'assets/photos/farhan-bwt.png';
 
   // work
-  static const String dsc = 'assets/work/dsc.png';
-  static const String sastaticket = 'assets/work/st.png';
-  static const String university = 'assets/work/cui.png';
-  static const String fullterIsb = 'assets/work/flutterIsl.png';
+  static const String spnj = 'assets/work/sahabatpnj.png';
+  static const String university = 'assets/work/pnj-2.png';
+  static const String bangkit = 'assets/work/bangkit.png';
+
 
   // services
   static const String uiux = 'assets/services/ui.png';
-  static const String blog = 'assets/services/blog.png';
   static const String appDev = 'assets/services/app.png';
-  static const String rapid = 'assets/services/rapid.png';
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
 
@@ -34,22 +32,20 @@ class StaticUtils {
     "https://img.icons8.com/android/480/ffffff/twitter.png",
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
     "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-    "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://facebook.com/profile.php?id=100009376256325",
+    "https://instagram.com/farhan_an0717",
+    "https://twitter.com/FarhanAdi_07",
+    "https://linkedin.com/in/farhanadinugraha07",
+    "https://github.com/Hanzein",
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+      'https://drive.google.com/file/d/1yQa92WJPsHJl2YM8fx5nZ2sxReHQqqBd/view?usp=sharing';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub = 'https://github.com/Hanzein';
 }
 
 class BodyUtils {

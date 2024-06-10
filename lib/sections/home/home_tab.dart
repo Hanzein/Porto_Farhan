@@ -66,17 +66,26 @@ class HomeTab extends StatelessWidget {
                   ],
                 ),
                 Space.y1!,
-                Text(
-                  "Muhammad",
-                  style: AppText.h1!.copyWith(
-                    fontFamily: 'Montserrat',
-                    fontWeight: FontWeight.w100,
-                  ),
-                ),
-                Text(
-                  "Hamza",
-                  style: AppText.h1b!.copyWith(
-                    height: 1,
+                RichText(
+                  text: TextSpan(
+                    children: [
+                      TextSpan(
+                        text: 'Farhan ',
+                        style: AppText.h1b!.copyWith(
+                          fontWeight: FontWeight.bold,
+                          fontSize: AppDimensions.normalize(20),
+                          height: 1,
+                        ),
+                      ),
+                      TextSpan(
+                        text: 'Adi Nugraha',
+                        style: AppText.h1b!.copyWith(
+                          fontWeight: FontWeight.w300, // Light
+                          fontSize: AppDimensions.normalize(20),
+                          height: 1,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 EntranceFader(
@@ -90,12 +99,17 @@ class HomeTab extends StatelessWidget {
                         color: AppTheme.c!.primary!,
                       ),
                       AnimatedTextKit(
-                        animatedTexts: [
+                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter Developer',
+                            ' Mobile Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
+                           TyperAnimatedText(
+                            ' Front End Developer',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                        ),
                           TyperAnimatedText(
                             ' UI/UX Enthusiast',
                             speed: const Duration(milliseconds: 50),

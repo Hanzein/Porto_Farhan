@@ -1,7 +1,7 @@
 class AboutUtils {
   static const String aboutMeHeadline =
-      'I\'m Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.';
+      'I\'m Farhan Adi Nugraha, a Mobile developer, Front End Developer and UI/UX designer.';
 
   static const String aboutMeDetail =
-      'I\'m a Fresh Graduate with Computer Science as Majors from COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a former  Google Developer Student Clubs (DSC) lead and also CEO/Co-Founder Flutter Islamabad, Pakistan. Currently working as Associate Software Engineer at Sastaticket.pk';
+      'I\'m an Informatics Engineering student at Politeknik Negeri Jakarta who have interested for Mobile Programming and UI/UX Design. My technical proficiency includes working with Android Studio, Kotlin, Flutter, Java, PHP, HTML, CSS, JavaScript, and UI/UX design principles for mobile applications. I have experience on Bangkit Academy Batch 2 2023 as Mobile Developer Cohort to learn how to build mobile application from beginner to intermediate. Looking opportunity to internship as Mobile Developer.';
 }
