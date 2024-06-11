@@ -1,13 +1,11 @@
-<!-- Build command: flutter build web --release -->
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <base href="https://hanzein.github.io/Porto_Farhan/" >
+  <base href="/Porto_Farhan/">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A Selft taught flutter developer, technical writer and open source contributor.">
+  <meta name="description" content="A self-taught Flutter developer, technical writer, and open-source contributor.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -82,16 +80,16 @@
   </div>
   
   <!-- Service Worker for PWA functionality -->
-  
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js');
+        navigator.serviceWorker.register('/Porto_Farhan/flutter_service_worker.js');
       });
     }
   </script>
+  
   <!-- Main Dart Script -->
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script src="/Porto_Farhan/main.dart.js" type="application/javascript"></script>
 </body>
 
 </html>
